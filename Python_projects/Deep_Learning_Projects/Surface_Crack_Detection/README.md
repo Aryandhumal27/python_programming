@@ -1,8 +1,8 @@
-# Surface Crack Detection using CNN
+# Industrial Surface Crack Detection using CNN
 
-This project demonstrates an "end-to-end Deep Learning pipeline" for detecting "surface cracks" using a "Convolutional Neural Network (CNN)".
+This project demonstrates an **end-to-end Deep Learning pipeline** for detecting **surface cracks** using a **Convolutional Neural Network (CNN)**.
 
-The project follows industrial best practices by:
+The project follows **industrial best practices** by:
 
 * Automating dataset preprocessing and organization
 * Splitting data into Training, Validation and Testing sets
@@ -43,8 +43,8 @@ CrackDataset/
        ...
 ```
 
-* Positive → Images containing surface cracks
-* Negative → Images without cracks
+* **Positive** → Images containing surface cracks
+* **Negative** → Images without cracks
 
 During execution, the project automatically creates:
 
@@ -81,16 +81,16 @@ Processed_CrackDataset/
 * Shuffle images randomly
 * Split dataset into:
 
-  * 70% Training
-  * 15% Validation
-  * 15% Testing
+  * **70% Training**
+  * **15% Validation**
+  * **15% Testing**
 * Copy images into processed dataset folders
 
 ---
 
 ## Image Preprocessing
 
-* Resize images to 128 × 128
+* Resize images to **128 × 128**
 * Normalize pixel values
 * Apply Data Augmentation:
 
@@ -145,9 +145,9 @@ The implemented CNN consists of:
 
 The CNN model uses:
 
-* Optimizer: Adam
-* Loss Function: Binary Crossentropy
-* Evaluation Metric: Accuracy
+* **Optimizer:** Adam
+* **Loss Function:** Binary Crossentropy
+* **Evaluation Metric:** Accuracy
 
 ---
 
@@ -317,6 +317,6 @@ Final Result : Crack Detected
 
 # Author
 
-Aryan Pandharinath Dhumal
-Date: 21/05/26
+**Aryan Pandharinath Dhumal**
 
+📅 **Date:** 21/05/26
