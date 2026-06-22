@@ -1,0 +1,13 @@
+# Ignore processed dataset
+Processed_CrackDataset/
+
+# Ignore trained models
+*.keras
+*.h5
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore VS Code settings
+.vscode/
