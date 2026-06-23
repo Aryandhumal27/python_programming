@@ -90,7 +90,7 @@ Backup_2026-06-23_15-30-45.zip
 
 ```bash
 git clone https://github.com/Aryandhumal27/python_programming.git
-cd Automated_Data_Shield
+cd Python_projects/Automation_Projects/Automated_Data_Shield
 ```
 
 ### Install Dependencies
