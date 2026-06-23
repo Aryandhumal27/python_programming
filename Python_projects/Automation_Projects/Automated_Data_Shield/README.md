@@ -89,7 +89,7 @@ Backup_2026-06-23_15-30-45.zip
 ### Clone Repository
 
 ```bash
-git clone https://github.com/Aryandhumal27/python_programming/tree/main/Python_projects/Automation_Projects/Automated_Data_Shield.git
+git clone https://github.com/Aryandhumal27/python_programming.git
 cd Automated_Data_Shield
 ```
 
