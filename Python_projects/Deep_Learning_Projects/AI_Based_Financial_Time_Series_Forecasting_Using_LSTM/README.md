@@ -30,7 +30,7 @@ This project forecasts the **next day's Reliance stock closing price** using his
 ```
 AI_Based_Financial_Time_Series_Forecasting_Using_LSTM/
 │
-├── AI_Based_Financial_Time_Series_Forecasting.py
+├── reliance_LSTM_time_series.py
 ├── reliance_stock_sample.csv
 ├── requirements.txt
 ├── README.md
