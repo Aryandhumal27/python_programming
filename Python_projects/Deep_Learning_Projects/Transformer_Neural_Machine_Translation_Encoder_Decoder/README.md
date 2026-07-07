@@ -1,6 +1,6 @@
 # 🌐 Transformer Neural Machine Translation (Encoder–Decoder)
 
-A complete implementation of a **Transformer-based Neural Machine Translation (NMT)** model using **TensorFlow/Keras**. This project demonstrates how the **Encoder–Decoder Transformer architecture** translates English sentences into Marathi using **Multi-Head Attention**, **Positional Embeddings**, and **Greedy Decoding**. The implementation follows the core principles introduced in the original Transformer architecture, where an encoder processes the source sentence and a decoder generates the target sentence autoregressively. :contentReference[oaicite:0]{index=0}
+A complete implementation of a **Transformer-based Neural Machine Translation (NMT)** model using **TensorFlow/Keras**. This project demonstrates how the **Encoder–Decoder Transformer architecture** translates English sentences into Marathi using **Multi-Head Attention**, **Positional Embeddings**, and **Greedy Decoding**. The implementation follows the core principles introduced in the original Transformer architecture, where an encoder processes the source sentence and a decoder generates the target sentence autoregressively. 
 
 ---
 
@@ -44,26 +44,26 @@ The project covers:
                  English Sentence
                         │
                         ▼
-            Text Vectorization
+                Text Vectorization
                         │
                         ▼
-      Token + Positional Embedding
+          Token + Positional Embedding
                         │
                         ▼
-            Transformer Encoder
+                Transformer Encoder
                         │
                         ▼
-               Encoder Output
+                 Encoder Output
                         │
                         ▼
-      Transformer Decoder
- (Masked Attention + Cross Attention)
+              Transformer Decoder
+       (Masked Attention + Cross Attention)
                         │
                         ▼
-            Dense + Softmax Layer
+              Dense + Softmax Layer
                         │
                         ▼
-             Marathi Translation
+               Marathi Translation
 ```
 
 ---
@@ -116,7 +116,7 @@ Example:
 ```
 I love python
 
-↓
+      ↓
 
 [15, 6, 20, 0, 0, 0, 0, 0]
 ```
@@ -164,19 +164,19 @@ A causal attention mask prevents the decoder from accessing future words during 
 The complete encoder-decoder architecture is connected using the Keras Functional API.
 
 ```
-Encoder
+   Encoder
       │
       ▼
 Encoder Output
       │
       ▼
-Decoder
+    Decoder
       │
       ▼
-Dense
+    Dense
       │
       ▼
-Softmax
+    Softmax
 ```
 
 ---
@@ -219,7 +219,7 @@ Example:
 Input:
 I love AI
 
-↓
+   ↓
 
 Output:
 mala ai avadte
