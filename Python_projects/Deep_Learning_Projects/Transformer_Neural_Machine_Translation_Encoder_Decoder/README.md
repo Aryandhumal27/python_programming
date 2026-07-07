@@ -44,23 +44,23 @@ The project covers:
                  English Sentence
                         │
                         ▼
-                Text Vectorization
+            Text Vectorization
                         │
                         ▼
-            Token + Positional Embedding
+      Token + Positional Embedding
                         │
                         ▼
-                Transformer Encoder
+            Transformer Encoder
                         │
                         ▼
-                  Encoder Output
+               Encoder Output
                         │
                         ▼
-              Transformer Decoder
-       (Masked Attention + Cross Attention)
+      Transformer Decoder
+ (Masked Attention + Cross Attention)
                         │
                         ▼
-              Dense + Softmax Layer
+            Dense + Softmax Layer
                         │
                         ▼
              Marathi Translation
@@ -164,19 +164,19 @@ A causal attention mask prevents the decoder from accessing future words during 
 The complete encoder-decoder architecture is connected using the Keras Functional API.
 
 ```
-    Encoder
+Encoder
       │
       ▼
 Encoder Output
       │
       ▼
-    Decoder
+Decoder
       │
       ▼
-    Dense
+Dense
       │
       ▼
-    Softmax
+Softmax
 ```
 
 ---
@@ -216,13 +216,13 @@ This process is called **Greedy Decoding**.
 Example:
 
 ```
-  Input:
-  I love AI
+Input:
+I love AI
 
-    ↓
+↓
 
-  Output:
-  mala ai avadte
+Output:
+mala ai avadte
 ```
 
 ---
